@@ -34,4 +34,28 @@ const fun=function(){   //function
     console.log("hello arpit");
 }
 
+// *******************Memory Allocation ********************
 
+// Stack(Primitive)   Heap(Non-Primitive)
+
+let myName="Arpit";
+
+let yourName=myName;
+yourName="Something";
+
+console.log(myName);
+console.log(yourName);
+
+
+let user1={
+    email:"user1@google.com",
+    city:"delhi"
+
+}
+
+let user2=user1;
+
+user2.city="Noida";
+
+console.log(user1);
+console.log(user2);
