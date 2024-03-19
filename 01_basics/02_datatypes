@@ -1,0 +1,26 @@
+"use strict"; // treat all js code as newer version
+
+alert( 3 + 3) // we are using node js, not browser.
+
+//datatypes
+// primitive datatype
+
+let name="Arpit" //string type
+let age=21; //number type (range 2 to power 53)
+let  isLoggedIn= false; //boolean type
+let state; //undefined type
+let city=null // null type is object type, which may be language error.
+
+/*
+null is defined (empty) standalone value
+undefined is value or type is not defined.
+symbol is used for uniqueness
+*/
+
+// non primitive datatypes
+
+/*
+array
+object
+*/
+
