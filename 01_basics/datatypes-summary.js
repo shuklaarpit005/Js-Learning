@@ -57,5 +57,5 @@ let user2=user1;
 
 user2.city="Noida";
 
-console.log(user1);
-console.log(user2);
+console.log(user1.city);
+console.log(user2.city);
